@@ -102,6 +102,10 @@ a.btn:hover{
     color: white;
 }
 
+.word1 ul{
+    list-style: none;
+}
+
 .back{
     background: #345578;
     background: linear-gradient(to bottom, #345578 1%,#101a24 100%);
