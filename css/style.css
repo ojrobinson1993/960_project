@@ -7,14 +7,14 @@ body {
     padding: 10px 0;
 }
 
-.top-bar a{
-    color:white;
-    text-decoration: none;
-}
-
 .top-bar {
     color: white;
     font-size: 10px;
+}
+
+.top-bar a{
+    color:white;
+    text-decoration: none;
 }
 
 .top-bar ul{
@@ -39,20 +39,24 @@ body {
     margin-right: 0px;
 }
 
-.btn{
-    background-color: #121e29;
-    border-radius: 5px;
+.back{
+    background: #345578;
+    background: linear-gradient(to bottom, #345578 1%,#101a24 100%);
     color: white;
-    padding: 15px;
-    text-decoration: none;
-    text-align: center;
-    display: inline-block;
+    margin-top: 10px;
 }
 
-a.btn:hover{
+.word a{
     text-decoration: none;
-    background-color: #fa8100;
     color: white;
+}
+
+.word ul{
+    list-style: none;
+}
+
+.word p{
+    margin: 0 0 15px;
 }
 
 .btn1 {
@@ -97,30 +101,21 @@ a.btn:hover{
     margin: 0;
 }
 
-.word a{
-    text-decoration: none;
-    color: white;
-}
-
-.word ul{
-    list-style: none;
-}
 
 .word1 p{
-    text-align: center;
-    margin-bottom: 75px;
+    margin: 0 0 15px;
 }
 
 .word1 h3{
-    text-align: center;
-    margin: 25px;
+    margin: 55px 0 15px;
 }
 
-.back{
-    background: #345578;
-    background: linear-gradient(to bottom, #345578 1%,#101a24 100%);
-    color: white;
-    margin-top: 10px;
+.word2 ul{
+    list-style: none;
+}
+
+.word2 li{
+    margin: 45px 0 10px;
 }
 
 .pic {
@@ -133,7 +128,7 @@ a.btn:hover{
     float: left;
     clear: left;
     color: #bd8142;
-    text-align: center;
+    
 }
 
 .pic2{
@@ -141,7 +136,7 @@ a.btn:hover{
     float: left;
     clear: left;
     color: #b86240;
-    text-align: center;
+    
 }
 
 .pic3{
@@ -149,7 +144,7 @@ a.btn:hover{
     float: left;
     clear: left;
     color: #ba435b;
-    text-align: center;
+    
 }
 
 .pic ul{
@@ -160,4 +155,20 @@ a.btn:hover{
     background: #091014;
     color: white;
     padding: 20px 0;
+}
+
+.btn{
+    background-color: #121e29;
+    border-radius: 5px;
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+}
+
+a.btn:hover{
+    text-decoration: none;
+    background-color: #fa8100;
+    color: white;
 }
