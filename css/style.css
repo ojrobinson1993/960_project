@@ -4,16 +4,12 @@ body {
 
 .top{
     background-color: #121e29;
-    padding: 10px 0;
-}
-
-.top-bar {
-    color: white;
-    font-size: 10px;
+    padding: 5px;
 }
 
 .top-bar a{
-    color:white;
+    color:grey;
+    font-size: 10px;
     text-decoration: none;
 }
 
@@ -39,11 +35,16 @@ body {
     margin-right: 0px;
 }
 
+.home-bar img{
+    padding: 15px;
+}
+
 .back{
     background: #345578;
     background: linear-gradient(to bottom, #345578 1%,#101a24 100%);
     color: white;
-    margin-top: 10px;
+    margin-top: 50px;
+    padding-bottom: 50px;
 }
 
 .word a{
@@ -56,6 +57,16 @@ body {
 }
 
 .word p{
+    position: relative; right: 40px;
+    margin: 0 0 15px;
+}
+
+.word h3{
+    position: relative; right: 40px;
+    margin: 0 0 15px;
+}
+.word h4{
+    position: relative; right: 40px;
     margin: 0 0 15px;
 }
 
@@ -67,6 +78,7 @@ body {
     padding: 15px 15px;
     text-align: center;
     text-decoration: none;
+    position: relative; right: 60px;
     float: left;
     clear: left;
 }
@@ -79,6 +91,7 @@ body {
     padding: 15px 15px;
     text-align: center;
     text-decoration: none;
+    position: relative; right: 60px;
     float: left;
     clear: left;
 }
@@ -91,6 +104,7 @@ body {
     padding: 15px 15px;
     text-align: center;
     text-decoration: none;
+    position: relative; right: 60px;
     float: left;
     clear: left;
 }
@@ -103,11 +117,13 @@ body {
 
 
 .word1 p{
-    margin: 0 0 15px;
+    position: relative; left: 20px;
+    margin: 25px 0 15px;
 }
 
 .word1 h3{
-    margin: 55px 0 15px;
+    position: relative; left: 20px;
+    margin: 57px 0 15px;
 }
 
 .word2 ul{
@@ -115,9 +131,24 @@ body {
 }
 
 .word2 li{
-    margin: 45px 0 10px;
+    margin: 55px 0 10px;
 }
 
+.word2 h4{
+    position: relative; right: 20px;
+    margin: 57px 0 15px;
+}
+
+.word2 p{
+    position: relative; right: 20px;
+    margin: 25px 0 15px;
+}
+
+.picmain {
+    position: relative; right: 50px;
+    float: left;
+    clear: left;
+}
 .pic {
     float: left;
     clear: left;
@@ -128,7 +159,6 @@ body {
     float: left;
     clear: left;
     color: #bd8142;
-    
 }
 
 .pic2{
@@ -136,7 +166,6 @@ body {
     float: left;
     clear: left;
     color: #b86240;
-    
 }
 
 .pic3{
@@ -144,7 +173,6 @@ body {
     float: left;
     clear: left;
     color: #ba435b;
-    
 }
 
 .pic ul{
@@ -153,8 +181,9 @@ body {
 
 .footer{
     background: #091014;
-    color: white;
-    padding: 20px 0;
+    color: grey;
+    font-size: 10px;
+    padding: 10px;
 }
 
 .btn{
